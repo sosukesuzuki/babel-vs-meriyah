@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "babel-vs-meriyah",
+  "version": "1.0.0",
+  "scripts": {
+    "bench": "./scripts/bench.sh"
+  },
+  "author": {
+    "name": "Sosuke Suzuki"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/parser": "7.23.4",
+    "meriyah": "4.3.8"
+  }
+}
