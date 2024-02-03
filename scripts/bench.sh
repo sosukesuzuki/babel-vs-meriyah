@@ -5,7 +5,8 @@ if [ ! -f ./tests/test.js ]; then
 fi
 
 args=()
-args+=("node ./scripts/bench.js babel")
+args+=("node ./scripts/bench.js babel-ts")
 args+=("node ./scripts/bench.js meriyah")
+args+=("node ./scripts/bench.js typescript")
 
 hyperfine --warmup 3 "${args[@]}" --show-output
